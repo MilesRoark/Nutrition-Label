@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Edu AU VIC WA NT Hand", sans-serif;
+  background-color: blanchedalmond;
+}
+
+.container {
+  width: 270px;
+  height: 650px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: -15px;
+}
+
+hr {
+  width: 250px;
+}
+
+.serving,
+.amount {
+  font-size: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: -20px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.special__text,
+.amount__calories {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.rule__thick {
+  height: 10px;
+  background-color: black;
+  margin-top: -15px;
+}
+
+.amount__serving {
+  font-weight: 700;
+}
+
+.amount__calories {
+  font-size: 20px;
+}
+
+.rule__thin {
+  height: 5px;
+  background-color: black;
+  margin-top: -8px;
+}
+
+.dv {
+  text-align: right;
+  margin-top: -10px;
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+
+.values,
+.minerals {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.values__span,
+.minerals__span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.values hr,
+.values p,
+.minerals p {
+  margin: 0;
+  padding: 0;
+}
+
+.sat,
+.trans,
+.die,
+.tot {
+  margin-left: 20px;
+}
+
+.add {
+  margin-left: 30px;
+}
+
+b {
+  margin-left: 15px;
+}
+
+.space1 {
+  margin-left: -53px;
+}
+
+.space2 {
+  margin-left: -33px;
+}
+
+.space3 {
+  margin-left: -33px;
+}
+
+.space4 {
+  margin-left: -160px;
+}
+
+.minerals p {
+  padding-left: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.text {
+  font-size: 10px;
+  margin-left: 15px;
+}
